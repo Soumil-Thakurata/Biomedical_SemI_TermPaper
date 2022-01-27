@@ -1,0 +1,175 @@
+\documentclass[11pt]{article}
+
+\begin{document}
+NAME: Soumil Thakurata
+
+Roll No: 21111064
+
+Stream: BIOMEDICAL ENGINEERING
+
+Subject: Basic Biomedical Engineering
+
+Topic: Assignment 1
+
+
+\pagebreak
+\section*{\centering 3D-Surface Imaging}
+
+The term 3D-imaging refers to technologies that are able to acquire true 3D data, i.e., values of some properties of a 3D object, such as the distribution of density, as the function of its coordinates $(x,y,z)$. Means of non-invasively capturing 3D-data has been used for some time, especially in the field of aeronautics and automobiles. It has also relatively recently been adopted into clinical usage. However, such clinical use has been fairly limited as the system was originally designed for engineers. The interfaces are geared towards engineers and technicians, not clinicians. Furthermore, the purposes of the two are starkly different. In engineering, the focus is on accuracy of the reconstruction, with speed of reconstruction taking a back-seat. Similarly, moving objects are uncommon in engineering, in contrast to medical applications where children are concerned. 
+
+\subsection*{Techniques and Equipment of 3D Surface Imaging}
+
+The revolutionary aspect about 3D-surface imaging in a clinical setting is that it has reduced the usage of tomographic and magnetic resonance imaging scanners which were highly invasive, and required anaesthesia application when used on children. 3D imaging utilises a wide range of techniques, but 5 basic ones are as follows:
+
+1. Coordinate Measurement Machines (CMM) using Contact Sensors: The primary use of CMMs is for quality control and precision manufacturing. This in turn, makes it very slow as it acquisitions a single measurement point at a time. The time required ranges from minutes to days, with even the slightest of movements causing measurement errors. This makes its use impractical in a clinical setting. However, some of the limited clinical applications of CMMs include validating new, non-contact 3D systems by comparing plaster casts made from patients to reconstructed models.
+
+2. Range Imaging: It is fairly accurate and claimed to be in the 0.05-mm$(xyz)$ range, but there is no standard industry standard. Although acquisition speed is limited in this case for safety and physical considerations, it is faster than CMMs, and small movements in the object will add an unknown error to the measurement. However, large movements will invalidate the session. Furthermore, the laser light can cause permanent damage. For these considerations, range imaging isn't widely used nor is the first choice in a clinical setting.
+
+3. Moire Pattern Photography: It is fairly accurate, with a typical limit being 40 lines per millimetre, which means that a range difference of 0.025 mm will produce a fringe. If phase-shift interferometry methods are used, surface height measurements can be made to $\frac{1}{100}$ of a fringe or 0.0025 mm. This technique has a limited depth of view which limits its usage in the clinical setting, despite its very high accuracy.
+
+4. Stereophotogrammetry: The first analytical article about photogrammetry was published in 1899 by Finsterwalder. It uses two or more images to calculate the position of a recognisable point that has to be defined in multiple images. Although manufacturers do not specify any standard, its accuracy is claimed to be in the range of $\pm$0.5 mm $xyz$ average. The short acquisition time of this technique makes it highly useful in clinical settings, especially in paediatrics. However, there are some issues with the imaging of small curved features, which forms a limitation on this technique in its current form.
+
+5. Motion Trackers, Electromagnetic, Reflective and Hybrid: As these are not designed to be measurement devices, there accuracy is fairly low compared to the other techniques/devices, limited to 3 mm-root mean square. Furthermore, its measurement is also affected by nearby metal objects, hence placing a further limitation on it.
+
+From the above list, one can conclude that Moire Imagine and stereophotogrammetry are the best suited for clinical usage, especially paediatrics, because of its fast acquisition speed and good accuracy.
+
+\subsection*{Uses}
+
+3D surface imaging has a host of usages. It is used in craniomaxillofacial surgery for analysis, planning, virtual surgery, 3D printouts of guides or implants and verification of actual to planned results; it also sees extensive use in plastic surgeries. 3D dimensional imaging was historically, first used in 1944 to diagnose orthodontologic conditions. Its use in the plastic field surgery was established by Karlan in 1979, analysing contours and documenting facial asymmetries. 
+
+\subsection*{\centering References}
+
+
+
+1. Riphagen, J.M., van Neck, J.W., van Adrichem, L.N.A (2008, April). 3D Surface Imaging in Medicine:: A Review of Working Principles and Implications for Imaging the Unsedated Child. The Journal of Craniofacial Surgery, 19(2), 8. 10.1097/SCS.0b013e31811ec20a
+
+
+
+2. https://pubmed.ncbi.nlm.nih.gov/26608154/
+
+
+
+3. https://pubmed.ncbi.nlm.nih.gov/25835245/
+
+\pagebreak
+
+\section*{\centering Magnetic Resonance Imaging}
+
+MRI (Magnetic Resonance Imaging) was invented by Paul C. Lauterbur who developed a mechanism to encode spatial information into an NMR signal using magnetic field gradients in September 1971; he published the theory behind it in March 1973. During the 1970s, a team led by John Mallard built the first full body MRI scanner at the University of Aberdeen in Scotland. In 1980, Paul Bottomley built the first high field device, using a 1.5 Tesla magnet overcoming the problems of coil design, RF penetration an signal-to-noise ratio to build the first whole body MRI/MRS scanner.
+
+\subsection*{Working Principle} 
+
+The MRI operates on the nuclear magnetic resonance phenomenon. All atomic nuclei consist of protons and neutrons, with a net positive charge. Certain atomic nuclei, such as the hydrogen nucleus, or the phosphorus nucleus, possess a property known as “spin”, dependent on the number of protons. This can be conceived as the nucleus spinning around its own axis although this is a mathematical analogy. The nucleus itself does not spin in the classical meaning but by virtue of its constituent parts induces a magnetic moment, generating a local magnetic field with north and south poles. The quantum mechanical description of this dipolar magnet is analogous to classical mechanics of spinning objects. The dipole itself is analogous to a bar magnet, with magnetic poles aligning along its axis of rotation. Application of a strong, external magnetic field ($B_0$) aligns the nucleus either in parallel with or perpendicular to the external field. A liquid solution containing many nuclear spins, placed within the $B_0$ field, will contain nuclear spins in one of two energy states: a low-energy state (oriented parallel to the magnetic field) or a high-energy state (orientated perpendicular to the magnetic field direction). In solids or liquids, there would tend to be an excess of spins in the same direction as $B_0$. Although a bar magnet would orientate completely parallel or antiparallel to the field, the nucleus has an angular momentum due to its rotation, so it will rotate, or precess, around the $B_0$ axis. This behavior is often compared to the wobbling motion of a gyroscope under the influence of the Earth's magnetic field and explains the use of “spin” to explain what is in reality a quantum mechanical phenomenon. The velocity of rotation around the field direction is the Larmor frequency. This is proportional to the field strength, and is described by the Larmor equation.
+
+The energy required to induce transition between energy levels is the energy difference between the two nuclear spin states. This depends on the strength of the $B_0$ magnetic field the nuclei are subjected to. Application of an RF pulse at the resonant frequency generates a FID (free induction decay). In practice, multiple RF (radiofrequency) pulses are applied to obtain multiple FIDs, which are then averaged to improve the signal-to-noise ratio (SNR). The signal-averaged FID is a time-domain signal. It will be made up of contributions from different nuclei within the environment being studied (e.g. free water and hydrogen bound to tissue). The signal-averaged FID can be resolved by a mathematical process known as Fourier transformation, into either an image (MRI) or a frequency spectrum, providing biochemical information. 
+
+Current diagnostic MRI scanner use cryogenic superconducting magnets in the range of 0.5 Tesla to 1.5 Tesla. Cooling the magnet to a temperature close to absolute zero (0 K) allows such huge currents to be conducted; this is most commonly performed via immersion in liquid helium. Until recently, most clinical research was conducted at a field strength of 1.5 Tesla. However, 3 Tesla systems are now widely available and are being used regularly in the research setting, where the capabilities of 3 Tesla systems are being explored and optimized. The advantages of higher field strength systems include improved signal-to-noise ratio (SNR), higher spectral, spatial, and temporal resolution, and improved quantification. The improved SNR can be traded to allow a reduced imaging time.
+
+\subsection*{Uses}
+
+MRI are commonly used for imaging the soft tissues of the body, such as the brain, spinal cord nerves, muscles, ligaments, tendons etc. In the brain, it can differentiate between white and grey cells and is used for diagnosing aneurysms and tumours. 
+
+\subsection*{\centering References}
+
+1. Wikipedia, 'History of magnetic resonance imaging'
+
+2. Grover, V.P.B., Tognarelli, J.M., Crossey, M.M.E., Cox, I.J., Taylor-Robinson, S.D., McPhail, M.J.W.(2015, September). Magnetic Resonance Imaging: Principles and Techniques: Lessons for Clinicians. Journal of Experimental and Clinical Hepatology, 5(3). 0.1016/j.jceh.2015.08.001
+
+3. https://www.nibib.nih.gov/science-education/science-topics/magnetic-resonance-imaging-mri
+
+\pagebreak
+
+\section*{\centering PET Scanner}
+
+\subsection*{Development}
+
+The concept of emission and transmission tomography by David E. Kuhl, Luke Chapman and Roy Edwards in the late 1950s. Their work later led to the design and construction of several tomographic instruments at the University of Pennsylvania. In 1975 tomographic imaging techniques were further developed by Michel Ter-Pogossian, Michael E. Phelps, Edward J. Hoffman and others at Washington University School of Medicine.
+
+Work by Gordon Brownell, Charles Burnham and their associates at the Massachusetts General Hospital beginning in the 1950s contributed significantly to the development of PET technology. Their innovations, including the use of light pipes and volumetric analysis, have been important in the deployment of PET imaging. In 1961, James Robertson and his associates at Brookhaven National Laboratory built the first single-plane PET scan, nicknamed the "head-shrinker."
+
+One of the reasons PET scans became more and more accepted was because of the development of radiopharmaceuticals. In particular, the development of labeled 2-fluorodeoxy-D-glucose (2FDG) by the Brookhaven group under the direction of Al Wolf and Joanna Fowler was a major factor in expanding the scope of PET imaging. The compound was first administered to two normal human volunteers by Abass Alavi in August 1976 at the University of Pennsylvania. Brain images obtained with an ordinary (non-PET) nuclear scanner demonstrated the concentration of FDG in that organ. Later, the substance was used in dedicated positron tomographic scanners, to yield the modern procedure.
+
+The logical extension of positron instrumentation was a design using two 2-dimensional arrays. PC-I was the first instrument using this concept and was designed in 1968, completed in 1969 and reported in 1972. The first applications of PC-I in tomographic mode as distinguished from the computed tomographic mode were reported in 1970. It soon became clear to many of those involved in PET development that a circular or cylindrical array of detectors was the logical next step in PET instrumentation. Although many investigators took this approach, James Robertson and Zang-Hee Cho were the first to propose a ring system that has become the prototype of the current shape of PET.
+
+The PET-CT scanner, attributed to David Townsend and Ronald Nutt, was named by Time as the medical invention of the year in 2000.
+
+\subsection*{Uses}
+
+PET differs from other nuclear medicine examinations in that PET detects metabolism within body tissues, whereas other types of nuclear medicine examinations detect the amount of a radioactive substance collected in body tissue in a certain location to examine the tissue's function. The technique is based on the detection of radioactivity emitted after a small amount of a radioactive tracer is injected into a peripheral vein. The tracer is administered as an intravenous injection usually labelled with oxygen-15, fluorine-18, carbon-11, or nitrogen-13. The total radioactive dose is similar to the dose used in computed tomography. 
+
+PET scans take about 10-40 minutes to complete. They are painless, and, as for computed tomography, the patient is fully clothed. 
+
+A common use for PET is to measure the rate of consumption of glucose in different parts of the body. Accumulation of the radiolabelled glucose analogue 18-fluorodeoxyglucose (FDG) allows measurement of the rate of consumption of glucose. One clinical use of this is to distinguish between benign and malignant tumours (malignant tumours metabolise glucose at a faster rate than benign tumours). Whole body scans are often performed to stage a cancer. Other applications of PET include looking at the blood flow and oxygen consumption in different parts of the brain—for example, in understanding strokes and dementia. Tracking chemical neurotransmitters (such as dopamine, in Parkinson's disease) can also be performed with this technique.
+
+PET has further applications in cardiology (in pretransplantation assessment of viable myocardium), in distinguishing recurrent tumours from radiation necrosis and surgical scarring, and in a variety of cancers. It is also used for diagnosing the following: Alzheimer's disease, Parkinson's disease, Huntington's disease, epilepsy, serebrovascular accidents (strokes).  
+
+
+
+
+
+\subsection*{\centering References}
+
+
+1. Wikipedia, 'Positron emission tomography'
+
+2. https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/positron-emission-tomography-pet
+
+3. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1126321/
+
+\pagebreak
+
+\section*{\centering Pulse Oximeter}
+
+\subsection*{Development}
+
+The first device to measure $O_2$ saturation was developed in 1905 by Karl Matthes, which was a two-wavelength ear $O_2$ saturation meter with red and green filters (later red and infrared filters). The original oximeter was made by Glenn Allan Millikan in the 1940s. Earl Wood in 1949 added a pressure capsule to squeeze blood out of the ear so as to obtain an absolute $O_2$ saturation value when blood was readmitted. This method is no longer used clinically today due to its unreliability. Japanese bioengineers Takuo Aoyagi and Michio Kishi, who worked at Nihon Koden, developed the first pulse oximetery in 1972, using the ratio of red to infrared light absorption of pulsating components at the measuring site. Niohon Koden manufactured the first pulse oximeter, Ear Oximeter OLV-5100, and Susumu Nakajima, a surgeon, and his associates first tested the device in patients, reporting it in 1975. In the US, it was commercialised by Biox in 1980. 
+
+By 1987, the standard of care for the administration of a general anesthetic in the U.S. included pulse oximetry. From the operating room, the use of pulse oximetry rapidly spread throughout the hospital, first to recovery rooms, and then to intensive care units. Pulse oximetry was of particular value in the neonatal unit where the patients do not thrive with inadequate oxygenation, but too much oxygen and fluctuations in oxygen concentration can lead to vision impairment or blindness from retinopathy of prematurity (ROP). Furthermore, obtaining an arterial blood gas from a neonatal patient is painful to the patient and a major cause of neonatal anemia.
+
+In 1995, Masimo introduced Signal Extraction Technology (SET) that could measure accurately during patient motion and low perfusion by separating the arterial signal from the venous and other signals. Since then, pulse oximetry manufacturers have developed new algorithms to reduce some false alarms during motion such as extending averaging times or freezing values on the screen, but they do not claim to measure changing conditions during motion and low perfusion. Also in 1995, Masimo introduced perfusion index, quantifying the amplitude of the peripheral plethysmograph waveform. Perfusion index has been shown to help clinicians predict illness severity and early adverse respiratory outcomes in neonates, predict low superior vena cava flow in very low birth weight infants, provide an early indicator of sympathectomy after epidural anesthesia, and improve detection of critical congenital heart disease in newborns. In 2007, Masimo introduced the first measurement of the pleth variability index (PVI), which multiple clinical studies have shown provides a new method for automatic, noninvasive assessment of a patient's ability to respond to fluid administration.
+
+\subsection*{Working Principle}
+
+Oximeters work by the principles of spectrophotometry: the relative absorption of red (absorbed by deoxygenated blood) and infrared (absorbed by oxygenated blood) light of the systolic component of the absorption waveform correlates to arterial blood oxygen saturation. Measurements of relative light absorption are made multiple times every second and these are processed by the machine to give a new reading every 0.5-1 second that averages out the readings over the last three seconds.
+
+Two light-emitting diodes, red and infrared, are positioned so that they are opposite their respective detectors through 5-10 mm of tissue. Probes are usually positioned on the fingertip, although earlobes and forehead are sometimes used as alternatives. One study has suggested that the ear lobe is not a reliable site to measure oxygen saturations. However, a more recent study advocated their use in patients admitted to intensive care units for coronary artery bypass surgery. Probes tend to use 'wrap' or 'clip' style sensors.
+
+\subsection*{Uses}
+
+Pulse oximeters have a wide range of uses, which includes but is not limited to: detection of hypoxaemia, continuous recording - can be used during anaesthesia or sedation, or to assess hypoxaemia during sleep studies to diagnose obstructive sleep apnoea, replacing blood-gas analysis in many clinical situations, avoids wastage of $O_2$ as its measurement is highly accurate, usage in neonatal care as the safety levels of oxygen saturation is higher and narrower in such cases, and intrapartum fetal monitoring.
+
+\subsection*{\centering References}
+
+1. Wikipedia, 'Pulse Oximetry'
+
+2. https://patient.info/doctor/pulse-oximetry
+
+\pagebreak
+
+\section*{\centering Pace Maker}
+
+\subsection*{Development}
+
+John Alexander MacWilliam in 1889 reported in the British Medical Journal (BMJ) of his experiments in which application of an electrical impulse to the human heart in asystole caused a ventricular contraction and that a heart rhythm of 60–70 beats per minute could be evoked by impulses applied at spacings equal to 60–70/minute. This was made into a portable apparatus by Mark C. Lidwill of the Royal Prince Alfred Hospital of Sydney in 1926. The first external transcutaneous pacemaker was developed by John Hopps in 1950, based upon observations by cardio-thoracic surgeons Wilfred Gordon Bigelow and John Callaghan at Toronto General Hospital, although the device was first tested on a dog at the University of Toronto's Banting Institute. A substantial external device using vacuum tube technology to provide transcutaneous pacing, it was somewhat crude and painful to the patient in use and, being powered from an AC wall socket, carried a potential hazard of electrocution of the patient and inducing ventricular fibrillation.
+
+In 1958, engineer Earl Bakken of Minneapolis, Minnesota, produced the first wearable external pacemaker for a patient of C. Walton Lillehei. This transistorized pacemaker, housed in a small plastic box, had controls to permit adjustment of pacing heart rate and output voltage and was connected to electrode leads which passed through the skin of the patient to terminate in electrodes attached to the surface of the myocardium of the heart. One of the earliest patients to receive this Lucas pacemaker device was a woman in her early 30s in an operation carried out in 1964 at the Radcliffe Infirmary in Oxford by cardiac surgeon Alf Gunning from South Africa and later Professor Gunning who was a student of Christiaan Barnard, the man who did the first heart transplant surgery in the world. 
+
+The first clinical implantation into a human of a fully implantable pacemaker was in 1958 at the Karolinska Institute in Solna, Sweden, using a pacemaker designed by inventor Rune Elmqvist and surgeon Åke Senning (in collaboration with Elema-Schönander AB, later Siemens-Elema AB), connected to electrodes attached to the myocardium of the heart by thoracotomy. The device only lasted three hours. A second device was implanted which lasted two days. In 1959, temporary transvenous pacing was first demonstrated by Seymour Furman and John Schwedel. Cardiothoracic surgeon Leon Abrams and medical engineer Ray Lightwood developed and implanted the first patient-controlled variable-rate heart pacemaker in 1960 at Birmingham University. The first implant took place in March 1960, with two further implants the following month. These three patients made good recoveries and returned to a high quality of life. By 1966, 56 patients had undergone implantation with one surviving for over 5+$\frac{1}{2}$ years.
+
+\subsection*{Construction}
+
+A pacemaker is composed of three parts: a pulse generator, one or more leads, and an electrode on each lead. A pacemaker signals the heart to beat when the heartbeat is too slow or irregular. A pulse generator is a small metal case that contains electronic circuitry with a small computer and a battery that regulate the impulses sent to the heart. The lead (or leads) is an insulated wire that is connected to the pulse generator on one end, with the other end placed inside one of the heart's chambers. The lead is almost always placed so that it runs through a large vein in the chest leading directly to the heart. The electrode on the end of a lead touches the heart wall. The lead delivers the electrical impulses to the heart. It also senses the heart's electrical activity and relays this information back to the pulse generator. Pacemaker leads may be positioned in the atrium (upper chamber) or ventricle (lower chamber) or both, depending on the medical condition. If the heart's rate is slower than the programmed limit, an electrical impulse is sent through the lead to the electrode and causes the heart to beat at a faster rate.
+
+\subsection*{Uses}
+
+Modern pacemakers have multiple functions. The most basic function of it is to monitor the native heart rhythm. When the pacemaker wire or "lead" does not detect heart electrical activity in the chamber it will stimulate either the atrium or the ventricle with a short low voltage pulse. It is also an essential component of cardiac resynchronisation therapy, which is used to treat heart failures. 
+
+
+\subsection*{\centering References}
+
+1. Wikipedia, 'Artificial cardiac pacemaker'
+
+2. https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/pacemaker-insertion
+
+
+\end{document}
